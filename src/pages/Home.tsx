@@ -19,7 +19,6 @@ export default function Home() {
         <div className={styles.cta}>
           <Link to="/projects">projects</Link>
           <Link to="/research">research</Link>
-          <a href={`mailto:${profile.email}`}>email</a>
         </div>
       </section>
 
