@@ -1,0 +1,32 @@
+.projects {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.projects h1 {
+  margin-bottom: 1.5rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.filter {
+  background: none;
+  border: 1px solid var(--border);
+  font-family: var(--font);
+  font-size: 0.8rem;
+  color: var(--muted);
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.filter:hover,
+.filter.active {
+  color: var(--fg);
+  border-color: var(--fg);
+}

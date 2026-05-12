@@ -1,0 +1,45 @@
+.home {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.hero {
+  margin-bottom: 4rem;
+}
+
+.hero h1 {
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.bio {
+  max-width: 520px;
+  margin-bottom: 1.5rem;
+}
+
+.cta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.sectionHeader a {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+section {
+  margin-bottom: 3.5rem;
+}

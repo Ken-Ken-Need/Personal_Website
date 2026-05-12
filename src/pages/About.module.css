@@ -1,0 +1,46 @@
+.about {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about h1 {
+  margin-bottom: 1.25rem;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+}
+
+.bio {
+  max-width: 520px;
+}
+
+.eduList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.eduItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill {
+  font-size: 0.85rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+}

@@ -1,0 +1,43 @@
+.card {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.4rem;
+}
+
+.year {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.desc {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+}

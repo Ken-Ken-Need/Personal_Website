@@ -1,0 +1,16 @@
+.footer {
+  border-top: 1px solid var(--border);
+  margin-top: 6rem;
+  padding: 1.5rem 0;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.inner a {
+  color: var(--muted);
+}

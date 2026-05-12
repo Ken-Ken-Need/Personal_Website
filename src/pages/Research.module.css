@@ -1,0 +1,22 @@
+.research {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.research h1 {
+  margin-bottom: 2rem;
+}
+
+.group {
+  margin-bottom: 3rem;
+}
+
+.groupTitle {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
